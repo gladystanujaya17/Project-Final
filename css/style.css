@@ -6,3 +6,33 @@ body {
     background: pink;
     color: black;
 }
+
+.slider-home .carousel-item{
+    height: 92.5vh;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.slider-home .carousel-item .carousel-caption .caption-content{
+    display: flex;
+    width: 100%;
+    height: 93vh;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+.slider-home .carousel-item .background-image {
+    opacity: 0.6;
+}
+h5 {
+    font-size: 30px;
+}
+
+.about-us {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+h3 {
+    color: palevioletred;
+}
