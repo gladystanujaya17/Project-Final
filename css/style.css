@@ -6,6 +6,9 @@ body {
     background: pink;
     color: black;
 }
+.navbar-brand {
+    color: palevioletred;
+}
 
 .slider-home .carousel-item{
     height: 92.5vh;
@@ -35,4 +38,23 @@ h5 {
 }
 h3 {
     color: palevioletred;
+}
+
+.container {
+    height: 70vh;
+}
+
+.best-seller {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container-best-seller {
+    height: 100vh;
+    background-color: pink;
+    margin-top: 50px;
+}
+.section-service {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
