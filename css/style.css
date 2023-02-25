@@ -85,7 +85,6 @@ h3 {
 }
 
 
-
 .baking-background {
     height: 10vh;
     background-size: cover !important;
@@ -108,4 +107,21 @@ h3 {
 }
 .social-media-icons {
     font-size: 50px;
+}
+
+.about-us {
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.about-us-paragraph {
+    color: palevioletred;
+}
+.col-sm-8 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.col-sm-4 {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
