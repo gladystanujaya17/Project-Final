@@ -125,3 +125,26 @@ h3 {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.whatsapp-button .bi-whatsapp {
+    font-size: 48px;
+    color: green;
+}
+
+@media screen and (max-width: 768px){
+    .row{
+        flex-direction: column; 
+    }
+    .box{
+        width: 100%;
+    }
+    .service-box{
+        flex-direction: column;
+    }
+}
