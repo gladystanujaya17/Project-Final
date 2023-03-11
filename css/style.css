@@ -44,6 +44,9 @@ h5 {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.about-us-main {
+    text-align: justify;
+}
 h3 {
     color: palevioletred;
 }
@@ -51,6 +54,7 @@ h3 {
     color: black;
     border-color: pink;
     background-color: pink;
+    border-radius: 8px;
 }
 .submit-button:hover {
     opacity: 0.8;
@@ -63,6 +67,7 @@ h3 {
     height: 70vh;
 } */
 
+/* Bagian Best Seller index.html */
 .best-seller {
     text-align: center;
     margin-top: 50px;
@@ -94,13 +99,13 @@ h3 {
     font-size: 30px;
     margin-bottom: 10px;
 }
-.service-image {
+.cheesecake, .bruschetta, .cupcakes {
     text-align: center;
     height: 150px;
     overflow: hidden;
     margin-bottom: 50px;
 }
-.service-image img {
+.cheesecake, .bruschetta, .cupcakes {
     width: 250px;
 }
 
@@ -118,6 +123,7 @@ h3 {
 
 .contact-us {
     justify-content: center;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -137,6 +143,13 @@ h3 {
     margin-bottom: 20px;
     text-align: center;
 }
+.about-us-image {
+    margin-bottom: 20px;
+}
+.bakery-about-us {
+    width: 80%;
+    height: auto;
+}
 .about-us-paragraph {
     color: palevioletred;
 }
@@ -147,6 +160,9 @@ h3 {
 .col-sm-4 {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.about-us-main {
+    justify-content: center;
 }
 
 .whatsapp-button {
@@ -159,15 +175,74 @@ h3 {
     font-size: 48px;
     color: green;
 }
+.responsive {
+    justify-content: center;
+    align-items: center;
+}
+.responsive .about-us-image {
+    margin-bottom: 30px;
+}
+h1 {
+    font-size: 30px;
+}
 
-@media screen and (max-width: 768px){
-    .row{
-        flex-direction: column; 
+/* aboutus.html and products.html responsive */
+@media screen and (max-width: 766px){
+    .about-us-main {
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
     }
-    .box{
-        width: 100%;
+    .image {
+        padding: 0px 20px;
+        background-color: pink;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: auto;
     }
-    .service-box{
-        flex-direction: column;
+    .row {
+        /* background-color: yellowgreen; */
+    }
+    .bagels {
+        text-align: center;
+    }
+    .image-about-us {
+        align-items: center;
+    }
+    .bagels-image {
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .responsive {
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
     }
 }
+@media screen and (max-width: 545px){
+    .about-us-main {
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+    }
+    .paragraph {
+        width: 100%;
+    }
+    .social-media {
+        flex-direction: column;
+    }
+    .contact-us {
+        justify-content: center;
+
+    }
+    .text-center {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
